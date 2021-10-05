@@ -4,6 +4,8 @@ background: linear-gradient(0deg, rgba(195,34,173,1) 0%, rgba(255,149,0,1) 100%)
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
+margin: 0;
+padding: 0;
 }
 .contenedor-80s{
     background-image: url(imagenes/wallpaperflare.com_wallpaper\(2\).jpg);
@@ -16,12 +18,13 @@ background-attachment: fixed;
 }
 .texto-80s{
     position:absolute;
-    top: auto;
-    bottom: auto;
-    right: auto;
-    left: auto;
+    bottom: 60px;
+    left: 60px;
+    
 }
 .texto-80s h1{
-    color: azure;
-    text-shadow: brown;
+    color: darkmagenta;
+    text-shadow: rgb(245, 245, 245);
+    font-family: 'Courier New', Courier, monospace;
+
 }
