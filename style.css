@@ -1,0 +1,27 @@
+body{
+    background: rgba(195, 34, 174, 0.884);
+background: linear-gradient(0deg, rgba(195,34,173,1) 0%, rgba(255,149,0,1) 100%);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+.contenedor-80s{
+    background-image: url(imagenes/wallpaperflare.com_wallpaper\(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 300px;
+    margin: bottom 60px;
+}
+.texto-80s{
+    position:absolute;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+}
+.texto-80s h1{
+    color: azure;
+    text-shadow: brown;
+}
