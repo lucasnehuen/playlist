@@ -1,3 +1,7 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
 body{
     background: rgba(195, 34, 174, 0.884);
 background: linear-gradient(0deg, rgba(195,34,173,1) 0%, rgba(255,149,0,1) 100%);
@@ -26,4 +30,30 @@ padding: 0;
     color: darkmagenta;
     text-shadow: rgb(245, 245, 245);
     font-family: 'Courier New', Courier, monospace;
+}
+
+.cancion:hover{
+    background-color: red;
+}
+
+th{
+    width: 7px;
+    background-color: rgba(156, 32, 156, 0.836);
+}
+table th{
+border-bottom: 2px solid blue;
+}
+
+td{
+    background-color: deeppink;
+}
+   .alineacion-de-imagen{
+       width: 15px;
+   }
+   .centrado{
+       text-align: center;
+   }
+.portada img{
+width: 6em;
+height: 6em;
 }
