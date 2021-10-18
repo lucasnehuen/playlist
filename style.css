@@ -53,14 +53,17 @@ tr:hover{
     background: linear-gradient(293deg, rgba(255,149,0,1) 20%, rgba(32,24,255,1) 47%, rgba(195,34,173,1) 83%);
 }
 
-   .alineacion-de-imagen{
-       width: 15px;
+.alineacion-de-imagen{
+    width: 15px;
    }
-   .centrado{
-       text-align: center;
-       color:rgb(255, 255, 255);
+.centrado{
+    text-align: center;
+    color:rgb(255, 255, 255);
    }
 .portada img{
-width: 6em;
-height: 6em;
+    width: 6em;
+    height: 6em;
+}
+footer p{
+    text-align: center;
 }
