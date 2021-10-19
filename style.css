@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+
+*{
+    font-family: 'Georama', sans-serif;
+}
+
 table{
     width: 100%;
     border-collapse: collapse;
@@ -45,6 +51,8 @@ th{
     border-bottom: 2px solid rgba(253, 236, 0, 0.836);
     background: rgb(157,3,203);
     background: rgb(255, 0, 221);
+    padding: 1em;
+    color: white;
     
 }
 
@@ -66,4 +74,34 @@ tr:hover{
 }
 footer p{
     text-align: center;
+}
+main p{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2em;
+    text-align: center;
+}
+#alineado{
+    margin: 2em auto;    
+    width: max-content;
+}
+
+h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+#lyrics{
+    background: rgb(255,149,0);
+    background: linear-gradient(67deg, rgba(255,149,0,1) 74%, rgba(32,24,255,1) 78%, rgba(162,32,189,1) 82%, rgba(195,34,173,1) 83%); 
+    width: max-content;
+    margin: auto;
+    padding: 2em 0;
+}
+#back-80s{
+    margin: 50px 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background: rgb(193,0,255);
+    background: linear-gradient(315deg, rgba(193,0,255,1) 19%, rgba(255,149,0,1) 41%, rgba(32,24,255,1) 57%, rgba(223,210,28,1) 74%, rgba(162,32,189,1) 82%, rgba(195,34,173,1) 83%); 
 }
